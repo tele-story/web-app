@@ -22,6 +22,9 @@ const config = defineConfig(async ({ mode }) => {
 		],
 		server: {
 			port: 4000,
+			allowedHosts: [
+				".ngrok-free.app"
+			]
 		},
 	};
 });

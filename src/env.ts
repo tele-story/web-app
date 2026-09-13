@@ -6,6 +6,10 @@ export const env = createEnv({
     DATABASE_URL: z.string().min(1),
     BETTER_AUTH_URL: z.string().min(1),
     BETTER_AUTH_SECRET: z.string().min(20),
+    TELEGRAM_BOT_TOKEN: z.string().min(1),
+    TELEGRAM_BOT_USERNAME: z.string().min(1),
+    TELEGRAM_OIDC_CLIENT_ID: z.string().min(1),
+    TELEGRAM_OIDC_CLIENT_SECRET: z.string().min(1),
   },
 
   /**
